@@ -4,5 +4,6 @@
   "memory": 128,
   "timeout": 5,
   "role": "arn:aws:iam::904257859374:role/dd_lambda_function",
-  "environment": {}
+  "environment": {},
+  "runtime": "python3.6"
 }
