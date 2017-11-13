@@ -4,7 +4,7 @@ def handle(event, context):
     unix_epoch_timestamp = int(time.time())
     value = 42
     metric_type = 'count'
-    metric_name = 'my.metric.name'
+    metric_name = 'sample.cloudwatch.value'
     tags = ['tag1:value', 'tag2']
 
     print(
