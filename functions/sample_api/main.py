@@ -14,5 +14,5 @@ def handle(event, context):
         'app_key': os.environ['DD_APP_KEY'],
     }
     datadog.initialize(**options)
-    datadog.api.Metric.send(metric=metric_name, points=(now, value), host="example.com", tags=tags)
+    datadog.api.Metric.send(metric=metric_name, points=(now, value), tags=tags)
 
